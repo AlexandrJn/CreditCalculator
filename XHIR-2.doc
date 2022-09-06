@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#XHIR-2] При вводе в &quot;Желаемая сумма кредита&quot; любого символа кроме чисел, возникает Internal Server Error 500</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://aefimov.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [XHIR-2]&nbsp;<a href="https://aefimov.atlassian.net/browse/XHIR-2">При вводе в &quot;Желаемая сумма кредита&quot; любого символа кроме чисел, возникает Internal Server Error 500</a>
+            <span class="subText">
+               Created: 24/Jun/22                   &nbsp;Updated: 05/Sep/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Progress</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://aefimov.atlassian.net/secure/BrowseProject.jspa?id=10001">Кредитный калькулятор</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="62a884c23eb34d00685e7970"
+                id="word_reporter_62a884c23eb34d00685e7970"
+                href="https://aefimov.atlassian.net/secure/ViewProfile.jspa?accountId=62a884c23eb34d00685e7970">
+                    Efimov Alexandr
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="62a884c23eb34d00685e7970"
+                id="word_assignee_62a884c23eb34d00685e7970"
+                href="https://aefimov.atlassian.net/secure/ViewProfile.jspa?accountId=62a884c23eb34d00685e7970">
+                    Efimov Alexandr
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10004-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://aefimov.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    XHIR-2_1.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Критичность:</b></td>
+                <td id="customfield_10032-10004-value" class="value" bgcolor="#ffffff" width="80%">    Мажорный
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Приоритет:</b></td>
+                <td id="customfield_10031-10004-value" class="value" bgcolor="#ffffff" width="80%">    Средний
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Окружение и версия:</b></td>
+                <td id="customfield_10029-10004-value" class="value" bgcolor="#ffffff" width="80%">      <ol>
+	<li>ПК, Windows 10 Pro, Yandex browser 22.5.2.615 (64-bit);</li>
+	<li>ПК, Windows 10 Pro, Chrome browser Version 102.0.5005.115 (Official Build) (64-bit)</li>
+</ol>
+
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10004-value" class="value" bgcolor="#ffffff" width="80%">      0|i0000h:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Если в кредитном калькуляторе ввести в поле "Желаемая сумма кредита" любой символ кроме чисел и нажать кнопку “Рассчитать“, то открывается окно с ошибкой 500.</p>
+
+<p><b>Шаги для воспроизведения:</b></p>
+
+<ol>
+	<li>Открыть Кредитный калькулятор <a href="http://creditcalculator.pointschool.ru/" title="smart-link" class="external-link" rel="nofollow noreferrer">http://creditcalculator.pointschool.ru/</a> ;</li>
+	<li>Ввести в поле "Желаемая сумма кредита" любой символ кроме чисел, например пробел;</li>
+	<li>Ввести в поле "Первоначальный взнос", любое значение, например 250000;</li>
+	<li>Ввести в поле "Срок кредита" любое значение, например 20;</li>
+	<li>Нажать "Рассчитать".</li>
+</ol>
+
+
+<p><b>Ожидаемый результат:</b> Поле "Желаемая сумма кредита" подсвечивается красным, появляется сообщение “Допустим ввод целых неотрицательных чисел от 100 000 до 500 000”.</p>
+
+<p><em>Поведение приложения в ТЗ не описано. Ожидаемый результат сформирован, исходя из логики поведения аналогичных приложений и таблицы Поля формы на стр.2 ТЗ.</em></p>
+
+<p><b>Фактический результат:</b> Открывается окно с текстом:</p>
+
+<p>Internal Server Error (#500):</p>
+
+<h1><a name="Error500"></a>Error 500</h1>
+
+
+<p>The server encountered an internal error or misconfiguration and was unable to complete your request.</p>
+
+<p>Please contact the server administrator, <a href="mailto:webmaster@pointschool.ru" class="external-link" rel="nofollow noreferrer">webmaster@pointschool.ru</a> and inform them of the time the error occurred, and anything you might have done that may have caused the error.</p>
+
+<p>More information about this error may be available in the server error log.<br/>
+Apache/2.2.16 (Ubuntu) Server at <a href="http://pointschool.ru" title="smart-link" class="external-link" rel="nofollow noreferrer">http://pointschool.ru</a>  Port 80</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+Generated at Tue Sep 06 10:41:21 UTC 2022 by Efimov Alexandr using Jira 1001.0.0-SNAPSHOT#100206-sha1:40f823cc9831469ea3c6decd06fddaf0ad67f8e2.
+
+</body>
+</html>

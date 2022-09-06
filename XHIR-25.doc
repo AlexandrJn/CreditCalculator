@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#XHIR-25] Функционал Simple: при расчёте с введённым  в поле &quot;Желаемая сумма кредита&quot; значения 500000 &quot;Результат расчёта&quot; неверен</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://aefimov.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [XHIR-25]&nbsp;<a href="https://aefimov.atlassian.net/browse/XHIR-25">Функционал Simple: при расчёте с введённым  в поле &quot;Желаемая сумма кредита&quot; значения 500000 &quot;Результат расчёта&quot; неверен</a>
+            <span class="subText">
+               Created: 29/Jun/22                   &nbsp;Updated: 05/Sep/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Progress</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://aefimov.atlassian.net/secure/BrowseProject.jspa?id=10001">Кредитный калькулятор</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="62a884c23eb34d00685e7970"
+                id="word_reporter_62a884c23eb34d00685e7970"
+                href="https://aefimov.atlassian.net/secure/ViewProfile.jspa?accountId=62a884c23eb34d00685e7970">
+                    Efimov Alexandr
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="604f210606cbba006ad626e2"
+                id="word_assignee_604f210606cbba006ad626e2"
+                href="https://aefimov.atlassian.net/secure/ViewProfile.jspa?accountId=604f210606cbba006ad626e2">
+                    Нина Агеева
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10027-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://aefimov.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    XHIR-25_1.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Критичность:</b></td>
+                <td id="customfield_10032-10027-value" class="value" bgcolor="#ffffff" width="80%">    Мажорный
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Приоритет:</b></td>
+                <td id="customfield_10031-10027-value" class="value" bgcolor="#ffffff" width="80%">    Средний
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Окружение и версия:</b></td>
+                <td id="customfield_10029-10027-value" class="value" bgcolor="#ffffff" width="80%">      <ol>
+	<li>ПК, Windows 10 Pro, Yandex browser 22.5.2.615 (64-bit);</li>
+	<li>ПК, Windows 10 Pro, Chrome browser Version 102.0.5005.115 (Official Build) (64-bit)</li>
+</ol>
+
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10027-value" class="value" bgcolor="#ffffff" width="80%">      0|i00015:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Если в рамках функционала simple в поле “Желаемая сумма кредита” ввести граничное значение 500000 и сделать расчёт, то “Результат расчёта“ будет посчитан неверно.</p>
+
+<p><b>Шаги для воспроизведения:</b></p>
+
+<ol>
+	<li>Открыть Кредитный калькулятор <a href="http://creditcalculator.pointschool.ru/" title="smart-link" class="external-link" rel="nofollow noreferrer">http://creditcalculator.pointschool.ru/</a>;</li>
+	<li>Ввести в поле "Желаемая сумма кредита" значение 500000;</li>
+	<li>Ввести в поле "Первоначальный взнос", любое значение, например 250000;</li>
+	<li>Ввести в поле "Срок кредита" любое значение, например 20;</li>
+	<li>Нажать "Рассчитать".</li>
+</ol>
+
+
+<p><b>Ожидаемый результат:</b> Происходит расчёт. Результат рассчета: ежемесячный платёж 13 836 - 18 428 P.</p>
+
+<p><b>Фактический результат:</b> Происходит расчёт. Результат рассчета: ежемесячный платёж -11 069 - -14 742 P</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+Generated at Tue Sep 06 10:42:26 UTC 2022 by Efimov Alexandr using Jira 1001.0.0-SNAPSHOT#100206-sha1:40f823cc9831469ea3c6decd06fddaf0ad67f8e2.
+
+</body>
+</html>
